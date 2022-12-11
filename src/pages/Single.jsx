@@ -1,6 +1,5 @@
-import React, {useContext} from 'react';
-import {useParams} from 'react-router-dom';
-import {Ctx} from "../App";
+import React, { useContext } from 'react';
+import { Ctx } from "../App";
 
 
 export default () => {
@@ -8,8 +7,8 @@ export default () => {
 
     const style = {
         backgroundImage: animal.image ? `url(${animal.image})` : "url(https://upload.wikimedia.org/wikipedia/ru/2/24/WWF_logo.svg)",
-        width: "100px",
-        height: "100px"
+        height: "200px",
+        width: "200px"
     }
 
     return <main>
